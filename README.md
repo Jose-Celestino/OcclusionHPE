@@ -10,7 +10,7 @@ Extract the models to the models folder in this repository.
 
 ## Datasets for Training and Testing
 
-The datasets folder in this repository contains Google Drive links for three datasets and respective annotations: 300W-LP, BIWI and AFLW2000 datasets. 
+The datasets folder in this repository contains Google Drive links for three datasets and respective annotations: 300W-LP, BIWI and AFLW2000 datasets. Extract the datasets to the datasets folder.
 
 ## Code
 
