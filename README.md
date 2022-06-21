@@ -14,10 +14,10 @@ The datasets folder in this repository contains Google Drive links for three dat
 
 ## Code
 
-For training of your own model, run Train_Latent.py. For dataset or individual image inference use the iPynthon file Test_Latent_Inference.ipynb.
+To train of your own model, run Train_Latent.py. For dataset or individual image inference use the iPynthon file Test_Latent_Inference.ipynb.
 Preferably, use the Latent_model_0,999.pkl model for best yaw estimation in inference.
 In datasets.py are customized classes for each datasets, easy to adapt and use in training and testing. The model is defined in LatentNet.py. 
 
-In the synthetic occlusion folder are two Matlab files for the generation of synthetic occlusion in images and datasets.
+There are two Matlab files in the synthetic occlusion folder for the generation of synthetic occlusion in images and datasets.
 Kinect_Occlusion_Recorder.m allows to record the occluded RGB and depth data necessary for the procedure in a .mat file. 
 Once the .mat file is created, run the Synthetic_Occlusion_Generator with the desired dataset to occlude.
